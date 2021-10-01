@@ -13,5 +13,6 @@ router.get("/", (req, res) => {
 });
 
 router.use("/fetch", require("./fetch"));
+router.use("/generate", require("./generate"));
 
 module.exports = router;
